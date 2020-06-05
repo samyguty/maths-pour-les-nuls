@@ -1,0 +1,115 @@
+body
+{
+background-color:whitesmoke;
+}
+.article
+{
+ width : 90%;
+ margin-left : auto;
+ margin-right : auto;
+ background-color : white;
+}
+  .article p
+  {
+   font-size :16px;
+   text-align : justify;
+   margin : 2%;
+   padding-bottom : 2%
+  }
+h2
+{
+ color : orangered;
+ text-align : center;
+ padding-top : 2%;
+ text-transform : uppercase;
+}
+
+h1
+{
+ text-align : center;
+}
+img
+{
+ width : 100%;
+}
+p
+{
+ text-align : center;
+}
+ .footer
+{
+ height : 5%;
+ width : 100%;
+ text-align : center;
+ background-color : #333;
+ 
+}
+ .footer p
+ {
+  color : #fff;
+ }
+ 
+ .nav ul
+ {
+  list-style-type : none;
+  overflow : hidden;
+  background-color : #333;
+  }
+ .nav li
+  {
+  float : left;
+  }
+  .nav li a
+  {
+  display : block;
+  padding : 15px;
+  text-decoration : none;
+  color : #fff;
+  }
+  .nav li a:hover
+  {
+  background-color : black;
+  }
+  .active
+  {
+   background-color : brown;
+  }
+  
+  .nav
+  {
+  position : sticky;
+  }
+  .table
+  { 
+   width : 80%;
+   margin : auto;
+  }
+  .table table th
+  {
+   background-color : brown;
+   color : white;
+   height : 50px;
+  }
+  .table table 
+  {
+   width : 100%;
+   border-collapse : collapse;
+   }
+   .table table td
+   { 
+   height: 30px;
+   }
+   .table table th, .table table td 
+   {
+    text-align : center;
+    border : 1px solid #ddd;
+   }
+   .table table tr:hover
+   {
+    background-color : lightblue
+   }
+   
+   .footer-bottom
+   {
+    position : fixed;
+    bottom : 0;

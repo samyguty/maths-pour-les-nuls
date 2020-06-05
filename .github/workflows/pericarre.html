@@ -1,0 +1,80 @@
+<html lang="fr">
+<head>
+<title>Aire du carré</title>
+<link rel="stylesheet" href="mod.css">
+
+</head>
+<body>
+
+
+  <div class="nav">
+  <ul>
+    <li class><a href="home.html">Home</a></li>
+    <li><a href="pericarre.html">Le carré</a></li>
+    <li><a href="cercle.html">Cercle</a></li>
+    <li><a href="Calculatrice.html">Calculatrice</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+ </div>
+ 
+ 
+ 
+ 
+ <div class="article">
+  <h1>LE CARRÉ
+  <h2>Surface ou aire du Carré</h2>
+  <h3>Périmètre<h3>
+  <img src="carré1.png">
+  <p>Un carré est une figure géometrique à quatre côtés. Les côtés ont tous la même longueur.
+  
+Ils sont parallèles deux à deux.
+
+Le carré a quatres angles droits.
+
+Pour trouver le périmètre d'un carré, c'est très simple, il faut connaitre la longueur d'un côté par 4.
+La formule qui donne le périmètre P en fonction du côté est
+PERIMETRE=CÔTÉ × 4.
+Par exemple si on a sait qu'un carré a pour coté 25 centimètres, son périmètre sera : 
+25×4 = 100 centimètres de périmètre.
+
+
+L'unité de mésure de périmètre est comme celle de la distance : le mètre(m) .</p>
+
+ <h3>Aire<h3>
+  <p>L'aire ou surface d'une figure est le nombre de petits carrés de côté 1 qu'on peut placer à l'interieur de la figure.
+  Si un carré a pour coté 2, alors on peut placer deux lignes de deux perits carrés à l'interieur comme 2×2=4, il ya alors 4 petits carrés à l'intérieur de ce carré, l'aire est donc de 4 centimètres.
+  De ce qui précède, on peut donc déduire la formule ci-dessous :
+  Aire du carré = côté×côté<br>
+  A=C×C.
+  
+  
+  </p>
+</div><hr<hr>
+
+
+<div class="article">
+<script language="JavaScript">
+function carré()
+{var c=document.f.nb.value*document.f.nb.value;
+alert("Le carré de"+document.f.nb.value+"est"+c);
+}
+  </script>
+ <div class="article">
+ 
+ <h3> Formulaire de cacul :
+ <img src="formcarre.jpg">
+ <br><br>
+
+  <form name="f">
+  <label for="nb">Aire du carré : </label>
+  <input type="text" name="nb" size="20" placeholder="Valeur d'un côté">
+  <input type="button" value="calculer le carré" onclick="carré()">
+  </form>
+ </div>
+ 
+ <hr>
+ <div class="footer">
+ <p>&copy; Copyright Samytest Coltd.2020</p>
+ </div>
+</body>
+</html>
